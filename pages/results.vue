@@ -1,10 +1,10 @@
 <script setup lang="ts">
 	useHead({ title: 'Noxy video finder - Resultados:' })
 	const {
-		query: { q },
+		query,
 	} = useRoute()
 
-	const { data: search } = useResults(String(q))
+	const { data: search } = useResults(String(query.q))
 	console.log(search.value)
 </script>
 
