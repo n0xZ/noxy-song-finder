@@ -4,7 +4,7 @@
 
 <template>
 	<div class="h-full w-full container mx-auto max-w-xl">
-		<form action="/results" class="flex flex-col justify-center w-full mt-[60%] space-y-3">
+		<form action="/results" class="flex flex-col justify-center w-full mt-[60%] space-y-3 xl:p-0 p-2">
 			<h2 class="text-xl font-semibold">
 				Ingrese el nombre de la canción a buscar
 			</h2>
