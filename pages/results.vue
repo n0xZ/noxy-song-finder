@@ -5,6 +5,7 @@
 	} = useRoute()
 
 	const { data: search } = useResults(String(q))
+	console.log(search.value)
 </script>
 
 <template>
